@@ -12,5 +12,5 @@ int main(void)
 	
 	printf("%d articles %c, de catégorie %c\n", qte, art, cat);
 
-	return(0);
+	return 0;
 }
