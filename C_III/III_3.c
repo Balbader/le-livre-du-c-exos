@@ -14,5 +14,5 @@ int main(void)
 
 	printf("rayon\t\t: %.3e\nperimetre\t: %.3e\naire\t\t: %.3e\n", rayon, perimetre, aire);
 
-	return(0);
+	return 0;
 }
