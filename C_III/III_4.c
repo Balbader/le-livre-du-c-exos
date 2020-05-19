@@ -2,8 +2,8 @@
 
 int main(void)
 {
+	int	nombre_article;
 	float	tva;
-    	int	nombre_article;
     	float	prix_unitaire;
     	float	prix_ht;
     	float	prix_ttc;
