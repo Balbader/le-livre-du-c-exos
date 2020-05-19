@@ -10,5 +10,5 @@ int main()
 	
 	printf("n value is: %d\np value is: %d\n", n, p);
 
-	return(0);
+	return 0;
 }
