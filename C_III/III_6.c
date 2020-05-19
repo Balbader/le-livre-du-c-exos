@@ -13,5 +13,6 @@ int main()
 	scanf("%d", &qte);
 
 	printf("articles : %c\ncatégorie : %c\nquantité : %d\n", art, cat, qte); 
-	return(0);
+	
+	return 0;
 }
