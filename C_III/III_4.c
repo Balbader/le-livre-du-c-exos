@@ -20,5 +20,5 @@ int main(void)
 	prix_ttc = (((prix_ht / 100) * tva) + prix_ht) * nombre_article;
     	printf("nombre d article\t:%6d\nprix HT\t\t\t:%9.2f\nprix TTC\t\t:%9.2f\n", nombre_article, prix_ht, prix_ttc);
 
-	return(0);
+	return 0;
 }
