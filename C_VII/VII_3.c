@@ -4,10 +4,10 @@
 
 int main(void)
 {
-    int t[N] = {1, 30, 120, 20, 40};
-    int max; //Highest element of the array
-    int pos; //Position of the highest element
-    int i;
+    int     t[N] = {1, 30, 120, 20, 40};
+    int     max;
+    int     pos;
+    int     i;
     
     pos = 0;
     max = 0;    
@@ -16,6 +16,7 @@ int main(void)
     {
         if (t[i] > max)
             max = t[i];
+        
         if (t[i] > t[pos])
             pos = i;
     }
