@@ -38,9 +38,8 @@ int main(void)
         printf("moyenne des valeurs positives : %.f\n", pourcent_pos);
     }
     else
-    {
         printf("aucune valeur positive.\n");
-    }
+    
     if (nval_neg != 0)
     {
         pourcent_neg = somme_neg;
