@@ -2,8 +2,8 @@
 
 int main(void)
 {
-    int suite[8];
-    int i;
+    int     suite[8];
+    int     i;
 
     suite[0] = 1;
     suite[1] = 1;
