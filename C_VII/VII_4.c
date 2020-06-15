@@ -3,10 +3,10 @@
 
 int main(void)
 {
-    float   arr[N];
-    float   score;
-    float   average;
-    int     i;
+    float       arr[N];
+    float       score;
+    float       average;
+    int         i;
     
     score   = 0.0;
 
@@ -29,10 +29,8 @@ int main(void)
     for (i = 0; i < N; i++)
     {
         if (arr[i] > average)
-        {
             printf("%.1f ", arr[i]);
-        }
     }
-
+    
     return 0;
 }
