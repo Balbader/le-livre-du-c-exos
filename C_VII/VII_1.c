@@ -2,8 +2,8 @@
 
 int main(void)
 {
-    int val[6];
-    int k;
+    int     val[6];
+    int     k;
 
     val[0] = 1;
     
