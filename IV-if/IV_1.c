@@ -1,12 +1,9 @@
 #include <stdio.h>
 
-int main()
-{
-
-	/* Solution 1 n'utilisant que les deux variables prévues pour les deux nombres */
-	
-	float a;
-	float b;
+int main(void)
+{	
+	float	a;
+	float	b;
 	
 	printf("Merci d'entrer votre premier nombre flottant: ");
 	scanf("%f", &a);
@@ -21,4 +18,3 @@ int main()
 
 	return(0);
 }
-
