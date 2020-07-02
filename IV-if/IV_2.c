@@ -10,7 +10,7 @@ void	empty_buffer(void)
     }
 }
 
-int main()
+int main(void)
 {
     char    reponse;
     float   rayon;
