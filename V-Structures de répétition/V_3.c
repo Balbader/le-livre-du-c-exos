@@ -1,33 +1,17 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-	int		n;
+    int    n;
 	
-	/* Using 'do...while' */
+    while (n != 0)
+    {
+	printf("Donnez un nombre entier : ");
+	scanf("%d", &n);
+	printf("voici son carré : %d\n", n * n);
 
-	/*
-	do
-	{
-		printf("Donnez un nombre entier : ");
-		scanf("%d", &n);
-		printf("voici son carré : %d\n", n * n);
-	}
-	while (n != 0);
-		printf ("Fin du programme");
-	*/
-
-	/* Same thing using 'while' instead of 'do...while' */
-
-	while (n != 0)
-	{
-		printf("Donnez un nombre entier : ");
-		scanf("%d", &n);
-		printf("voici son carré : %d\n", n * n);
-
-		if (n == 0)
-			printf("Fin de programme.");
-	}
-
-	return(0);
+	if (n == 0)
+		printf("Fin de programme.");
+    }
+    return(0);
 }
