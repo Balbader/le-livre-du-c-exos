@@ -1,23 +1,19 @@
 #include <stdio.h>
 
-/* Adaptez le programme de l'exemple (ex_5.c) de mannière qu'il fournisse
-la moyennes des valeurs positives et la moyenne des valeurs négatives.
-On se protegera contre le risque de division par zéro (0) */
-
 int main()
 {
-    float val;          /* pour les différentes valeurs fournies */
-    int nval_pos;       /* pour compter le nombre de valeurs positives fournies */
-    int nval_neg;       /* pour compter le nombre de valeurs negatives fournies */
-    float somme_pos;    /* pour accumuler la somme des valeurs positives */
-    float somme_neg;    /* pour accumuler la somme des valeurs négatives */
-    float pourcent_pos; /* pourcentage des valeurs fournies */
-    float pourcent_neg; /* pourcentage des valeurs fournies */
+    float val;    
+    int nval_pos;    
+    int nval_neg;     
+    float somme_pos;  
+    float somme_neg;  
+    float pourcent_pos;
+    float pourcent_neg; 
 
-    somme_pos = 0; /* initialisation somme des valeurs positives */
-    somme_neg = 0; /* initialisation somme des valeurs négatives */
-    nval_pos = 0;  /* initialisation du nombre de valeur positives fournies */
-    nval_neg = 0;  /* initialisation du nombre de valeur négatives fournies */
+    somme_pos = 0; 
+    somme_neg = 0;
+    nval_pos = 0;  
+    nval_neg = 0; 
 
     do
     {
@@ -33,7 +29,7 @@ int main()
             somme_neg = somme_neg + val;
             nval_neg++;
         }
-    } while (val != 0); /* arrêt sur valeur nulle */
+    } while (val != 0);
     if (nval_pos != 0)
     {
         pourcent_pos = somme_pos;
