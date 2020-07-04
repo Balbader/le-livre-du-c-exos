@@ -5,8 +5,8 @@
 int main(void)
 {
     int     t[N] = {1, 30, 120, 20, 40};
-    int     max; //Highest element of the array
-    int     pos; //Position of the highest element
+    int     max; 
+    int     pos;
     int     i;
     
     pos = 0;
@@ -24,6 +24,6 @@ int main(void)
     printf("Highest #: %d\n", max);
     printf("Postion: %d\n", pos);   
     
-    return 0;
+    return (0);
 }
 
