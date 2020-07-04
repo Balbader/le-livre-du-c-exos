@@ -11,7 +11,7 @@ int main(void)
 	printf("voici son carré : %d\n", n * n);
 
 	if (n == 0)
-		printf("Fin de programme.");
+	    printf("Fin de programme.");
     }
-    return(0);
+    return (0);
 }
