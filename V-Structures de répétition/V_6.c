@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-    int n;
-    int p;
-    int i;
+    int     n;
+    int     p;
+    int     i;
 
     printf("Valeur initiale et nombre de valeurs : ");
     scanf("%d %d", &n, &p);
